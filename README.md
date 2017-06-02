@@ -9,6 +9,10 @@
 
 # Setup and introduction to tools
 
+### GitHub
+
+Git is a **version control manager** for code. Sort of like how you can step back to previous versions of a Google Doc. GitHub is a place that many developers host their projects. You can think of GitHub like google docs for code -- it allows for collaboration, and keeps a record of changes made. 
+
 ### Code Editors
 
 One of the most important tools in a developer's belt is their _editor_. Developers use special editors that can handle multiple programming languages, provide syntax highlighting, and give additional functionality. Sort of like Word or Pages for code.
@@ -33,7 +37,9 @@ Let's set up a couple of things in the terminal:
 
 You just learned a bunch of terminal commands! Developers spend a _lot_ of time in the terminal. It's good to at least be able to recognize what's going on.
 
-Phew. Now that we're all set up, let's move on to the _good shit_.
+### Phew. 
+
+Now that we're all set up, let's move on to the _good shit_.
 
 # What is the internet???
 
@@ -46,6 +52,14 @@ The internet was invented by Tim Berners-Lee at CERN to centralize scientific re
 [He didn't, actually](http://www.snopes.com/quotes/internet.asp). He helped create an environment where the internet could flourish.
 
 ### What is the internet _made of_, though?
+
+The internet that you see on a day-to-day basis is made up of _HTML documents_. HTML stands for **H**yper**t**ext **M**arkup **L**anguage. When the browser loads a webpage, it's looking for HTML.
+
+# HTML
+
+Every HTML document has two basic parts: the **head** and the **body**.
+
+- The **head** has information about the page: any stylesheets that may be necessary (we'll get to those in a second), the SEO information, the title, etc.
 
 # Front-End and Back-End Development
 
