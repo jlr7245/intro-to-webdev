@@ -59,7 +59,47 @@ The internet that you see on a day-to-day basis is made up of _HTML documents_. 
 
 Every HTML document has two basic parts: the **head** and the **body**.
 
-- The **head** has information about the page: any stylesheets that may be necessary (we'll get to those in a second), the SEO information, the title, etc.
+- The **head** has information about the page: any stylesheets that may be necessary (we'll get to those in a second), the SEO information, the title, etc. It doesn't display in the browser.
+- The **body** is the webpage itself.
+
+## HTML Structure
+
+HTML is structured in a tree-like way: elements can contain elements, which can contain elements, which can contain elements... and so on, ad nauseum.  So, what I want 
+
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website Title</title>
+</head>
+<body>
+	Content Goes Here
+</body>
+</html>
+```
+
+- The doctype tells the browser that the document is an HTML document.
+- The `head` tag is where certain tags go that send information to the browser. The `title` tag is an example of this.
+- The elements that users will see should go in the `body` tag.
+
+## HTML Elements
+
+## Common HTML Tags
+
+##### Div:
+- Divs are like empty rectangles.
+- They help organize content on the page.
+
+```
+<div class="margin-top-20 logo">
+	My Text Inside
+</div>
+```
+
+
+
+# CSS
 
 # Front-End and Back-End Development
 
@@ -103,17 +143,7 @@ Every HTML document has two basic parts: the **head** and the **body**.
 
 ![HTML Tag Attributes](img/tags_attributes.png)
 
-## Common HTML Tags
 
-##### Div:
-- Divs are like empty rectangles.
-- They help organize content on the page.
-
-```
-<div class="margin-top-20 logo">
-	My Text Inside
-</div>
-```
 
 ##### Input:
 - Inputs allow users to enter data to be saved to a database.
@@ -211,23 +241,7 @@ Every HTML document has two basic parts: the **head** and the **body**.
 <a href="mylink.html">My Link</a>
 ```
 
-## HTML Structure
 
-```
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Website Title</title>
-</head>
-<body>
-	Content Goes Here
-</body>
-</html>
-```
-
-- The doctype tells the browser that the document is an HTML document.
-- The `head` tag is where certain tags go that send information to the browser. The `title` tag is an example of this.
-- The elements that users will see should go in the `body` tag.
 
 ## General Assembly Press Release Code-Along
 
