@@ -19,7 +19,21 @@ I use VSCode. Other popular editors are Sublime, Atom, and Brackets.
 
 ### The terminal
 
-Another thing 
+Another thing developers use constantly is the _terminal_. The terminal is a direct interface to the underlying operating system. Usually you interact with your file structure through a **Graphic User Interface**, or **GUI**. The terminal strips out all of the extraneous things.
+
+Let's set up a couple of things in the terminal:
+
+1. Hit `cmd` + space to open up Spotlight. Type "Terminal" in the bar & hit enter to open terminal.
+2. Type `gls -F` to **l**i**s**t all the files & folders in the current directory.
+3. Type `mkdir code` to make a new folder called `code`.
+4. Type `cd code` to **c**hange **d**irectory into the `code` folder.
+5. Type `touch index.html` to create a new file called `index.html`.
+6. Type `open .` to open the current directory in the finder.
+7. Right-click on `index.html` and select "Open With > Visual Studio Code".
+
+You just learned a bunch of terminal commands! Developers spend a _lot_ of time in the terminal. It's good to at least be able to recognize what's going on.
+
+Phew. Now that we're all set up, let's move on to the _good shit_.
 
 # What is the internet???
 
@@ -30,6 +44,8 @@ The internet was invented by Tim Berners-Lee at CERN to centralize scientific re
 > But J! Didn't Al Gore invent the internet?
 
 [He didn't, actually](http://www.snopes.com/quotes/internet.asp). He helped create an environment where the internet could flourish.
+
+### What is the internet _made of_, though?
 
 # Front-End and Back-End Development
 
