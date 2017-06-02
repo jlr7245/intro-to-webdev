@@ -213,6 +213,8 @@ Responsive design is a big topic. One article I really love is by a guy named Fr
 
 > An edgeless surface of unknown proportions comprised of small, individual, and variable elements from multiple vantages assembled into a readable whole.
 
+![moment](./assets/moment.jpg)
+
 The point of responsive design is to manage that reassembly in a way that benefits the user.
 
 #### The job of a designer or developer is to structure a page so that at any given moment, no matter the size of the screen or the device of the user, the user is seeing precisely the information they need most.
